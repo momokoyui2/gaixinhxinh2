@@ -1,0 +1,37 @@
+.silau {
+  padding-bottom: 60%;
+  background: #eeeeee linear-gradient(to right, rgba(255, 255, 255, 0) 5%, rgba(255, 255, 255, .75) 20%, rgba(255, 255, 255, 0) 30%);
+  background-size: 100% 100%;
+  animation: silau 3s linear infinite;
+  -moz-animation: silau 3s linear infinite;
+  -webkit-animation: silau 3s linear infinite;
+  -o-animation: silau 3s linear infinite;
+}
+.silau img {
+  opacity: 0;
+  transition: 1s all;
+}
+@keyframes silau {
+  0% {
+    background-position: -400px 0
+  }
+  100% {
+    background-position: 400px 0
+  }
+}
+@-webkit-keyframes silau {
+  0% {
+    background-position: -50% 0
+  }
+  100% {
+    background-position: 50% 0
+  }
+}
+@-moz-keyframes silau {
+  0% {
+    background-position: -50% 0
+  }
+  100% {
+    background-position: 50% 0
+  }
+}
