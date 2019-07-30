@@ -1,5 +1,5 @@
 var loadingGif = 'https://3.bp.blogspot.com/-5Y6n45Y0x1k/XUCGgEqFUiI/AAAAAAAAKrU/-DvYMPoZLy4-sSwtgBANsi9V6JyU2kf4wCLcBGAs/s1600/gaixinhxinh.xyz-loading.gif';
-var text = 'Loading More..';
+var text = 'Loading More Posts...';
 ! function (a) {
     function b() {
         h || (h = !0, d ? (f.find("a").hide(), f.find("img").show(), a.ajax(d, {
